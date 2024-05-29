@@ -41,6 +41,9 @@ Feel free to ask me how my skill set can be applied to enhance your company's pe
 
 Building an ML model is like creating a human-like brain that can make decisions based on data and their correlations. Every decision involves a learning process, decision-making capabilities, and the importance of understanding and interpreting data relationships.
 
+### My snake maid
+![snake gif](https://github.com/jimmy7294/jimmy7294/blob/output/github-contribution-grid-snake.gif)
+
 ---
 
 Thank you for visiting my profile! Let's connect and explore how we can collaborate to create innovative solutions.
