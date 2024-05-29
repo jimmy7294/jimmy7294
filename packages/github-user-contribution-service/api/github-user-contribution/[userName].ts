@@ -11,7 +11,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     res.json(
       await getGithubUserContribution(userName as string, {
         githubToken: process.env.GITHUB_TOKEN!,
-      })
+      }),
     );
   } catch (err) {
     console.error(err);
