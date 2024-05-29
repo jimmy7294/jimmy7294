@@ -11,14 +11,14 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: yarn
-          node-version: 20
+          node-version: 22
       - run: yarn install --frozen-lockfile
 
       - run: npm run type
       - run: npm run lint
       - run: npm run test --ci
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
 
   test-action:
     runs-on: ubuntu-latest
@@ -51,7 +51,7 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
 
   test-action-svg-only:
     runs-on: ubuntu-latest
@@ -60,7 +60,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: yarn
-          node-version: 20
+          node-version: 22
       - run: yarn install --frozen-lockfile
 
       - name: build svg-only action
@@ -89,7 +89,7 @@ jobs:
           target_branch: output-svg-only
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
 
   deploy-ghpages:
     runs-on: ubuntu-latest
@@ -98,7 +98,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: yarn
-          node-version: 20
+          node-version: 22
       - run: yarn install --frozen-lockfile
 
       - run: npm run build:demo
@@ -111,4 +111,4 @@ jobs:
           target_branch: gh-pages
           build_dir: packages/demo/dist
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN_GH_PAGES }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
