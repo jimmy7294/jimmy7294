@@ -26,8 +26,8 @@ Feel free to ask me how my skill set can be applied to enhance your company's pe
 - Data analysis and interpretation
 
 ### 📫 Get in Touch
-- **LinkedIn**: [Your LinkedIn Profile](www.linkedin.com/in/minhtuann)
-- **Portfolio**: [Your Portfolio](https://portfolio-v1-puce-eta.vercel.app/)
+- **LinkedIn**: [Tuan Lam](www.linkedin.com/in/minhtuann)
+- **Portfolio**: [Jimmy](https://portfolio-v1-puce-eta.vercel.app/)
 
 ### ⚡ Fun Fact
 Building an ML model is like creating a human-like brain that can make decisions based on data and their correlations. Every decision involves a learning process, decision-making capabilities, and the importance of understanding and interpreting data relationships.
